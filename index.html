@@ -1036,24 +1036,24 @@ bg-no-repeat bg-cover bg-center mt-14 relative  corefeaturesection">
 
     <img src="./images/feature-section1-dottedrows.png" alt=""
     class="absolute w-[200px ] top-[8rem] left-[2rem] -z-10">
-    <h2 class="font-mullish font-bold text-2xl text-deepBlueHead text-center">An Experience <br>
+    <h2 class="font-mullish font-bold text-2xl text-deepBlueHead text-center ">An Experience <br>
       People Love to Talk About</h2> 
-      <div class="w-6 h-1 mx-auto bg-greenLight"></div>
+      <div class="w-6 h-1 mx-auto bg-greenLight my-4"></div>
   
 
   <!-- left button  -->
-  <button>
-    <div>
+  <button class="absolute rounded-full w-[100px] h-[100px] bg-[#f4f8ff] left-0 top-1/2  flex justify-center items-center ">
+    <div class="w-[65%] h-[65%] bg-[#f4f8ff] rounded-full flex justify-center items-center mix-blend-multiply">
       <i data-feather="chevron-right"
-      class="stroke-[5px] w-6 h-6 md:w-10 md:h-10 text-gray-400">        
+      class="stroke-[5px] w-6 h-6  text-gray-400 rotate-180">        
       </i>
     </div>
   </button>
 
 
   <!-- right button  -->
-  <button>
-    <div>
+  <button class="absolute rounded-full w-[100px] h-[100px] bg-[#f4f8ff] right-0 top-1/2  flex justify-center items-center">
+    <div class="w-[65%] h-[65%] bg-[#f4f8ff] rounded-full flex justify-center items-center mix-blend-multiply">
       <i data-feather="chevron-right"
       class="stroke-[5px] w-6 h-6 md:w-10 md:h-10 text-gray-400">        
       </i>
@@ -1063,25 +1063,45 @@ bg-no-repeat bg-cover bg-center mt-14 relative  corefeaturesection">
 
   <!-- main content  -->
 
-  <div>
+  <div class="flex flex-row max-w-[960px] items-center mx-auto my-20 space-x-[10rem]">
     <!-- left img  -->
-    <img src="./images/testimonial.jpg" alt="">
+    <img src="./images/testimonial.jpg" alt=""
+    loading="lazy"
+    height="320px"
+    width="320px"
+    class="rounded-xl"
+    >
 
     <!-- right part -->
 
-    <div>
-      <img src="./images/quotes.svg" alt="">
-      <p>Readymade Closed Wallet Solution For Quick Refunds</p>
-      <a href="">Learn More</a>
-      <h3>Lorem</h3>
-      <p>CEO, Lakshyadeep Gogoi</p>
-      <img src="./images/fake-company-logo.png" alt="">
+    <div class="max-w-[400px] ">
+      <img src="./images/quotes.svg" alt=""
+      loading="lazy"
+      width="35px"
+      height="40px"
+      class="-mb-2"
+      >
+      <p class="font-mullish text-3xl font-extralight opacity-80">Readymade Closed Wallet Solution For Quick Refunds</p>
+      <a href="#" class="text-grayText italic underline">Learn More</a>
+      <p class="font-mullish font-extrabold text-2xl">@lakshyadeep</p>
+      <p class="font-mullish font-medium">CEO, Lakshyadeep Gogoi</p>
+      <img src="./images/fake-company-logo.png" alt=""
+      loading="lazy"
+      width="80px"
+      height="40px"
+      >
     </div>
   </div>
 
   <!-- 6 dot wala div  -->
-  <div>
-    <div></div>
+  <div class="w-full flex flex-row mx-auto space-x-2 justify-center">
+    <!-- dot 1 -->
+    <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
+    <div class="h-[10px] w-[10px] bg-lightBlue300 rounded-full"></div>
+    <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
+    <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
+    <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
+    <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
   </div>
 
 
@@ -1089,6 +1109,8 @@ bg-no-repeat bg-cover bg-center mt-14 relative  corefeaturesection">
   </div>
 
 </section>
+
+
 
 
 </div>
@@ -1103,4 +1125,3 @@ bg-no-repeat bg-cover bg-center mt-14 relative  corefeaturesection">
 </html>
 
 
-<!-- !--01:23:05 -->
