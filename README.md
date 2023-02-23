@@ -1,11 +1,12 @@
-# Website Clone
+# Razorpay Clone
 
-This is a clone of [original website name], created for [purpose of creating the clone]. The website is built using [technology or tools used], and is hosted on [platform used for hosting].
+This is a clone of https://razorpay.com/, created for learning TailwindCSS , animation , flex box , grid and Responsive. The website is built using TailwindCSS, and is hosted on Netlify.
 
 ## Screenshots
 
-![Homepage screenshot](./image/github1.jpg)
-![About page screenshot](/screenshots/about.png)
+![Homepage screenshot](images/github1.jpg)
+
+![About page screenshot](images/github2.jpg)
 
 ## Getting Started
 
